@@ -1,4 +1,4 @@
-# Github::Releases
+# GithubReleases
 
 TODO: Write a gem description
 

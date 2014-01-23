@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'github/releases/version'
+require 'github-releases/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "github-releases"
-  spec.version       = Github::Releases::VERSION
+  spec.version       = GithubReleases::VERSION
   spec.authors       = ["shunirr"]
   spec.email         = ["m@s5r.jp"]
   spec.description   = %q{TODO: Write a gem description}
