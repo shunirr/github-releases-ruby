@@ -17,12 +17,7 @@ module GithubReleases
     end
 
     def get(id = nil)
-      res = nil
-      if id
-        res = @client.get url
-      else
-        res = @client.get url(id)
-      end
+      res = @client.get url(id)
       JSON.parse res.body
     end
 
